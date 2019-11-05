@@ -1,0 +1,11 @@
+server:
+  port: 33000
+spring:
+  application:
+    name: project
+  datasource:
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=UTF-8
+      username: root
+      password: admin
+      driverClassName: com.mysql.jdbc.Driver
